@@ -1,4 +1,84 @@
-/* Inserta tu codigo aqui */
+body{
+	background-color: #20223A;
+}
+header{
+	background-color: black;
+}
+footer{
+	background-color: #010324;
+	height: 100px;
+	text-align: center;
+	padding-top: 4%;
+}
+ul li{
+	display: inline-block;
+	margin-top: 20px;
+	margin-left: 10px;
+	float: right;
+}
+#fondo{
+	background-image: url(../image/header-image.jpg);
+	padding: 20%;
+	margin-bottom: 40px;
+	margin-top: 40px;
+}
+#black_color{
+	background-color: black;
+}
+.leter{
+	background-color: black;
+}
+.parrafos{
+	background-color: #010324;
+}
+.search{
+	background-color: #010324;
+	text-align: center;
+	height: 60px;
+	margin-bottom: 20px;
+	padding-top: 15px;
+}
+.color_blue{
+	background-color: #20223A;
+	border: #20223A;
+	height: 30px;
+	width: 90%;
+}
+.sec-2{
+	margin-top: 40px;
+}
+#redes{
+	color:white;
+	border-radius: 100%;
+	background-color: #20223A;
+	width: 30px;
+	height: 30px;
+	text-align: center;
+	padding-top: 7px;
+	margin-left: 15px;
+	margin-bottom: 20px;
+
+}
+.redes{
+	margin-top: 20px;
+}
+h5{
+	color:#E1A346;
+	text-align: center;
+}
+h4{
+	color:#E1A346;
+	text-align: center;
+}
+h1{
+	color:#E1A346;
+}
+p{
+	color: white;
+}
+img{
+	width: 100%;
+}
 
 /* Responsive */
 
