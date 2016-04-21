@@ -107,23 +107,3 @@
 	/* (12 / 12) x 100 */
 	width: 100%;
 }
-@media(max-width:375px){
-	.col-6{
-		width: 50%;
-	}
-	.col-7{
-		width: 100%;
-	}
-	.col-5{
-		width: 100%;
-	}
-}
-@media(min-width:376px) and (max-width: 667px){
-	
-}
-@media(min-width:667px) and (max-width: 1024px){
-	
-}
-@media(min-width:1024px){
-	
-}

@@ -9,6 +9,7 @@ footer{
 	height: 100px;
 	text-align: center;
 	padding-top: 4%;
+	color: white;
 }
 .img-header{
 	width: 80%;
@@ -126,8 +127,6 @@ h1{
 }
 .linea{
 	color:white;
-	margin-left: 2px;
-	margin-right: 2px;
 }
 img{
 	width: 100%;
@@ -135,10 +134,21 @@ img{
 
 /* Responsive */
 
-@media screen and (max-width : 920px) {
 
+@media(max-width:375px){
+	.col-5{
+		width: 100%;
+	}
+	.col-12{
+		width: 100%;
+	}
 }
-
-@media screen and (max-width: 600px) {
-
+@media(min-width:376px) and (max-width: 667px){
+	
+}
+@media(min-width:667px) and (max-width: 1024px){
+	
+}
+@media(min-width:1024px){
+	
 }
