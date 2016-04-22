@@ -137,6 +137,10 @@ h1{
 img{
 	width: 100%;
 }
+#ambur{
+	color: white;
+	display: none;
+}
 
 /* Responsive */
 
@@ -145,7 +149,28 @@ img{
 	.container, .col-4{
 		width: 100%;
 	}
-
+	.container, .col-5{
+		width: 100%;
+	}
+	.container, .col-12{
+		width: 100%;
+	}
+	.container, .col-7{
+		width: 100%;
+	}
+	#all-none{
+		display: none;
+	}
+	#enlace{
+		display: none;
+	}
+	#ambur{
+		display: inline-block;
+		margin-left: 50px;
+		font-size: 40px;
+		margin-top: 50px;
+		position: absolute;
+	}
 }
 @media(min-width:376px) and (max-width: 667px){
 	.container, .col-4{
@@ -160,9 +185,23 @@ img{
 	.container, .col-7{
 		width: 100%;
 	}
+	#all-none{
+		display: none;
+	}
+	#enlace{
+		display: none;
+	}
+	#ambur{
+		display: inline-block;
+		margin-left: 50px;
+		font-size: 40px;
+		margin-top: 50px;
+		position: absolute;
+	}
 }
+
 @media(min-width:667px) and (max-width: 1024px){
-	
+
 }
 @media(min-width:1024px){
 	
